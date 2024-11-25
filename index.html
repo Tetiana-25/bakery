@@ -310,17 +310,17 @@
             </h2>
             <p class="modal-text section-text centered">Залишіть заявку та наш спеціаліст зв'яжеться з Вами!</p>
 
-            <form action="#" name="order-form" class="contacts-form">
+            <form action="#" name="order-form" autocomplete="on" class="contacts-form">
                 <div class="form-row">
-                    <input type="text" name="name" placeholder="Ім'я" id="order-name">
+                    <input type="text" name="name" placeholder="Ім'я" id="order-name" required>
                     <label for="order-name">Ім'я</label>
                 </div>
                 <div class="form-row">
-                    <input type="tel" name="phone" placeholder="Телефон" id="order-phone">
+                    <input type="tel" name="phone" placeholder="Телефон" id="order-phone" required>
                     <label for="order-phone">Телефон</label>
                 </div>
                 <div class="form-row">
-                    <input type="email" name="email" placeholder="Електронна пошта" id="order-email">
+                    <input type="email" name="email" placeholder="Електронна пошта" id="order-email" required>
                     <label for="order-email">Електронна пошта</label>
                 </div>
                 <button class="button">Замовити дзвінок</button>
