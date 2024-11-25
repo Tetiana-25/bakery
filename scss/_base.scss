@@ -1,0 +1,14 @@
+*, :after,:before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.circle{
+    @include circle(100px,100px,white);
+}
+.circle-big{
+    @include circle(500px,500px,green);
+}

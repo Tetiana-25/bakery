@@ -1,0 +1,75 @@
+
+
+/* Chefs */
+.chefs{
+    padding: 48px 0 64px 0;
+}
+
+.chefs .section-title{
+    max-width: 532px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.chefs .section-title:before, .chefs .section-title:after{
+    content: '';
+    position: absolute;
+    bottom: 23px;
+    width: 352px;
+    height: 2px;
+    background-color: var(--color-light-green);
+}
+
+.chefs .section-title:before{
+    right: 100%;
+}
+
+.chefs .section-title:after{
+    left: 100%;
+}
+
+.chefs__items{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 16px;
+}
+
+.chef__item{
+    display: flex;
+    gap: 30px;
+}
+
+.chef__image{
+    max-width: 241px;
+}
+
+.chef__image img{
+    width: 100%;
+    height: auto;
+    border-radius: 4px 4px 4px 200px;
+    box-shadow: -16px 16px 0 0 var(--color-light), -16px 16px 0 2px #A18268;
+}
+
+.chef__info{
+    max-width: 334px;
+}
+
+.chef__name{
+    color: var(--color-dark);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: normal;
+}
+.chef__description{
+    margin-top: 16px;
+    color: var(--color-dark);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.chef__description p:not(:last-child){
+    margin-bottom: 20px;
+}

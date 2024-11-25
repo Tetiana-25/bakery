@@ -4,19 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сучасна пекарня</title>
-    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
     <header class="header">
         <div class="container">
-            <div class="header-wrapper">
-                <div class="header-logo">
+            <div class="header__wrapper">
+                <div class="header__logo">
                     <img width="114" height="56" src="images/logo.png" alt="Логотип сучасної пекарні">
                 </div>
-                <nav class="header-menu">
+                <nav class="header__menu">
                     <ul>
                         <li>
                             <a href="#traditions" class="is_active">Наші традиції</a>
@@ -32,15 +31,15 @@
                         </li>
                     </ul>
                 </nav>
-                <button class="header-btn button">Замовити дзвінок</button>                
+                <button class="header__btn button">Замовити дзвінок</button>                
             </div>
         </div>
     </header>
     <main>
         <section class="hero">
-            <div class="hero-overflow"></div>
+            <div class="hero__overflow"></div>
             <div class="container">
-                <h1 class="hero-title centered"><span>Сучасна</span> пекарня</h1>
+                <h1 class="hero__title centered"><span>Сучасна</span> пекарня</h1>
             </div>
         </section>
         <section class="promo-line">
@@ -62,8 +61,8 @@
         </section>
         <section class="traditions" id="traditions">
             <div class="container">
-                <div class="traditions-wrapper">
-                    <div class="traditions-left">
+                <div class="traditions__wrapper">
+                    <div class="traditions__left">
                         <h2 class="section-title">Новий формат традицій</h2>
                         <div class="section-text">
                             <p>
@@ -77,7 +76,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="traditions-right">
+                    <div class="traditions__right">
                         <img width="393" height="466" src="images/bakery-man.png" alt="Чоловік в пекарні">
                     </div>
                 </div>
@@ -89,14 +88,14 @@
                     Наші найкращі 
                     <span>шеф -кухарі</span>
                 </div>
-                <div class="chefs-items">
-                    <article class="chef-item">
-                        <div class="chef-image">
+                <div class="chefs__items">
+                    <article class="chef__item">
+                        <div class="chef__image">
                             <img width="241" height="390" src="images/chef1.png" alt="Шеф кухар - Настя">
                         </div>
-                        <div class="chef-info">
-                            <h3 class="chef-name">Настя</h3>
-                            <div class="chef-description">
+                        <div class="chef__info">
+                            <h3 class="chef__name">Настя</h3>
+                            <div class="chef__description">
                                 <p>
                                     Привіт, я Настя!
                                 </p>
@@ -111,13 +110,13 @@
                             </div>
                         </div>
                     </article>
-                    <article class="chef-item">
-                        <div class="chef-image">
+                    <article class="chef__item">
+                        <div class="chef__image">
                             <img width="241" height="390" src="images/chef2.png" alt="Шеф кухар - Влад">
                         </div>
-                        <div class="chef-info">
-                            <h3 class="chef-name">Влад</h3>
-                            <div class="chef-description">
+                        <div class="chef__info">
+                            <h3 class="chef__name">Влад</h3>
+                            <div class="chef__description">
                                 <p>
                                     Привіт, я Влад!
                                 </p>
@@ -136,8 +135,8 @@
         <section class="formats" id="formats">
             <div class="container">
                 <h2 class="section-title centered">Формати</h2>
-                <div class="formats-slider">
-                    <div class="formats-arrows">
+                <div class="formats__slider">
+                    <div class="formats__arrows">
                         <button class="arrow-prev">
                             <svg>
                                 <use href="images/icons.svg#icon-arrow">
@@ -151,12 +150,12 @@
                     </div>
                     <div class="swiper">
                         <div class="swiper-wrapper">
-                            <div class="formats-item swiper-slide">
-                                <img width="349" height="444" src="images/format1.png" alt="Walrus" class="format-bg">
-                                <div class="format-overflow"></div>
-                                <div class="format-content">
-                                    <h3 class="format-name">Walrus</h3>
-                                    <div class="format-description">
+                            <div class="formats__item swiper-slide">
+                                <img width="349" height="444" src="images/format1.png" alt="Walrus" class="format__bg">
+                                <div class="format__overflow"></div>
+                                <div class="format__content">
+                                    <h3 class="format__name">Walrus</h3>
+                                    <div class="format__description">
                                         <p>Площа: до 120 м2</p>
                                         <p>Меню: розширене меню </p>
                                         <p>Штат: 2 продавці-касири, 2 пекарі, 2 помічники пекаря, 2 офіціанти-різнороби</p>
@@ -164,12 +163,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="formats-item swiper-slide">
-                                <img width="349" height="444" src="images/format2.png" alt="Horseshoe" class="format-bg">
-                                <div class="format-overflow"></div>
-                                <div class="format-content">
-                                    <h3 class="format-name">Horseshoe</h3>
-                                    <div class="format-description">
+                            <div class="formats__item swiper-slide">
+                                <img width="349" height="444" src="images/format2.png" alt="Horseshoe" class="format__bg">
+                                <div class="format__overflow"></div>
+                                <div class="format__content">
+                                    <h3 class="format__name">Horseshoe</h3>
+                                    <div class="format__description">
                                         <p>Площа: до 25 м2</p>
                                         <p>Меню: найпопулярніші позиції меню </p>
                                         <p>Штат: 2 продавці-касири, 2 пекарі, 1 помічник пекаря</p>
@@ -177,12 +176,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="formats-item swiper-slide">
-                                <img width="349" height="444" src="images/format3.png" alt="Handlebar" class="format-bg">
-                                <div class="format-overflow"></div>
-                                <div class="format-content">
-                                    <h3 class="format-name">Handlebar</h3>
-                                    <div class="format-description">
+                            <div class="formats__item swiper-slide">
+                                <img width="349" height="444" src="images/format3.png" alt="Handlebar" class="format__bg">
+                                <div class="format__overflow"></div>
+                                <div class="format__content">
+                                    <h3 class="format__name">Handlebar</h3>
+                                    <div class="format__description">
                                         <p>Площа: до 15 м2</p>
                                         <p>Меню: найпопулярніші позиції меню</p>
                                         <p>Штат: 1 продавець, 1 пекар, 1 помічник пекаря</p>
@@ -190,12 +189,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="formats-item swiper-slide">
-                                <img width="349" height="444" src="images/format1.png" alt="Walrus" class="format-bg">
-                                <div class="format-overflow"></div>
-                                <div class="format-content">
-                                    <h3 class="format-name">Walrus</h3>
-                                    <div class="format-description">
+                            <div class="formats__item swiper-slide">
+                                <img width="349" height="444" src="images/format1.png" alt="Walrus" class="format__bg">
+                                <div class="format__overflow"></div>
+                                <div class="format__content">
+                                    <h3 class="format__name">Walrus</h3>
+                                    <div class="format__description">
                                         <p>Площа: до 120 м2</p>
                                         <p>Меню: розширене меню </p>
                                         <p>Штат: 2 продавці-касири, 2 пекарі, 2 помічники пекаря, 2 офіціанти-різнороби</p>
@@ -206,16 +205,16 @@
                         </div>
                     </div>
                 </div>
-                <div class="formats-pagination swiper-pagination"></div>
+                <div class="formats__pagination swiper-pagination"></div>
             </div>
         </section>
         <section class="contacts" id="contacts">
             <div class="container">
-                <div class="contacts-wrapper">
-                    <div class="contact-info">
+                <div class="contacts__wrapper">
+                    <div class="contact__info">
                         <h2 class="section-title">Приєднуйся до мережі пекарень</h2>
                         <div class="section-text">Заповни форму, щоб ми звʼязались з тобою!</div>
-                        <form action="#" name="contact-form" class="contacts-form">
+                        <form action="#" name="contact-form" class="contacts__form">
                             <div class="form-row">
                                 <input type="text" name="name" placeholder="Ім'я" id="form-name">
                                 <label for="form-name">Ім'я</label>
@@ -230,14 +229,14 @@
                             </div>
                             <button class="button">Замовити дзвінок</button>
                         </form>
-                        <div class="contact-policy">
+                        <div class="contact__policy">
                             Натискаючи на кнопку я погоджуюсь з 
                             <a href="#" target="_blank">
                                 політикою конфіденційності
                             </a>
                         </div>
                     </div>
-                    <div class="contact-map">
+                    <div class="contact__map">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.1634470361055!2d30.488698376003068!3d50.456680986915906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637c006b2d%3A0xaf86385f19996ff0!2z0YPQuy4g0KHQtdGH0LXQstGL0YUg0KHRgtGA0LXQu9GM0YbQvtCyLCA1NCwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1731591220646!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
@@ -246,9 +245,9 @@
     </main>
     <footer>
         <div class="container">
-            <div class="footer-wrapper">
-                <img width="108" height="57" src="images/footer-logo.png" alt="Логотип сучасної пекарні" class="footer-logo">
-                <nav class="footer-menu">
+            <div class="footer__wrapper">
+                <img width="108" height="57" src="images/footer-logo.png" alt="Логотип сучасної пекарні" class="footer__logo">
+                <nav class="footer__menu">
                     <ul>
                         <li>
                             <a href="#">Франшиза</a>
@@ -275,7 +274,7 @@
                         Україна, м. Київ, <br>
                         вул. Січових Стрільців 54
                     </a>
-                    <div class="footer-socials">
+                    <div class="footer__socials">
                         <a href="https://facebook.com" target="_blank">
                             <svg>
                                 <use href="images/icons.svg#icon-facebook">
@@ -288,9 +287,9 @@
                         </a>
                     </div>
                 </div>
-                <div class="footer-info">
-                    <a href="#" target="_blank" class="footer-policy">Політика конфіденційності</a>
-                    <div class="footer-copyright">&copy; 2022 Дані захищені</div>
+                <div class="footer__info">
+                    <a href="#" target="_blank" class="footer__policy">Політика конфіденційності</a>
+                    <div class="footer__copyright">&copy; 2022 Дані захищені</div>
                 </div>
             </div>
         </div>
